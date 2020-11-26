@@ -9,6 +9,8 @@ sections:
   label: Notes
   create: documents
   match: "**/*"
+  templates:
+  - notes
 - type: jekyll-posts
   label: Posts
   create: documents
